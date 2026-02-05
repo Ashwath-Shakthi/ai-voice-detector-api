@@ -4,7 +4,7 @@ from typing import Optional
 
 app = FastAPI(title="AI Voice Detection API")
 
-API_KEY = "API_SECRET_KEY"
+API_KEY = "my-secret-key"
 
 class AudioRequest(BaseModel):
     language: str
